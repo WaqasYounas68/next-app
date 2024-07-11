@@ -4,9 +4,9 @@
   "private": true,
   "homepage": "https://uat.jodimubarak.com.au/",
   "scripts": {
-    "dev": "node server.js",
+    "dev": "npm dev",
     "build": "next build",
-    "start": "NODE_ENV=production node server.js"
+    "start": "next start"
   },
   "dependencies": {
     "react": "^18",
